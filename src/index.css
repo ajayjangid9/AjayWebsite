@@ -1,0 +1,809 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&family=Raleway:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Work+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.btn-get-started a{
+  border-radius: 50px;
+ border: 1px solid #1A4CED;
+ padding: 7px 22px;
+ text-decoration: none;
+  color:#1A4CED;
+ 
+}
+.btn-get-started a:hover{
+  border-radius: 50px;
+  background-color:#1A4CED;
+  color: white;
+  border: 1px solid #1A4CED;
+  transition: 0.5s;
+ 
+}
+.heading-p{
+  font-family: 'Comfortaa', cursive;
+ 
+}
+.my-3{
+  font-family: 'Comfortaa', cursive;
+  font-size: large;
+  
+}
+.header-img{
+  text-align: right;
+}
+
+.brand-name{
+  color: #1A4CED;
+  font-family: 'Comfortaa', cursive;
+}
+.brand-name1{
+  color: #1A4CED;
+  font-size: 28px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse;
+}
+@keyframes up-down {
+  0% {
+      transform: translateY(7px);
+  }
+  100%{
+    transform: translateY(-7px);
+  }
+}
+
+.color-c{
+  color: #00CE8F;
+}
+.pagenxt{
+  font-size: 1.4rem;
+}
+.list-decorative li::before {
+  content: '';
+  display: inline-block;
+  width: 21px;
+  height: 17px;
+ 
+  margin-right: 10px;
+}
+.text-animated{
+  animation: text 7s steps(25) infinite alternate;
+  width: 0ch;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes text {
+  0%{
+    width: 0%;
+  }
+  50%{
+    width: 28ch;
+  }
+}
+.my-services{
+  color: #00CE8F;
+}
+.services-listed{
+  list-style: none;
+  margin-bottom: 10px;
+  
+  display: contents;
+}
+.services-list li{
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFC41D;
+  padding-bottom: 3%;
+}
+.services-listed a{
+  text-decoration: none;
+}
+.services-inner h1{
+  font-weight: bold;
+}
+.progress-set{
+  padding-top: 2%;
+ 
+}
+.progress-name1{
+  font-family: 'Comfortaa', cursive;
+}
+.progress-name{
+  margin-top: 4%;
+  font-family: 'Comfortaa', cursive;
+}
+.progress{
+  margin-top: 5%;
+  border-radius: 100px;
+  border-radius: inherit !important;
+  
+}
+.progress-bar{
+  width: 80%;
+  background-color: #4C9BFB !important;
+  
+ 
+  
+ 
+}
+.my-services{
+  font-family: 'Comfortaa', cursive;
+}
+.services-inner{
+  font-family: 'Comfortaa', cursive;
+}
+.services-list li{
+  font-family: 'Comfortaa', cursive;
+}
+.fade-in {
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.mt-3{
+  width: 80%;
+}
+.progress-bar1{
+  width: 70%;
+  background-color: #0079e3 !important;
+  display: flex;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  justify-content: center;
+  padding-top: 1.3%;
+  color: white;
+}
+.progress-bar1{
+  animation-name: progress-bar;
+}
+@keyframes progress-bar{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 80%;
+  }
+}
+
+.progress-bar2{
+  width: 20%;
+ 
+  display: flex;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  justify-content: center;
+  padding-top: 1.3%;
+  color: white;
+}
+.progress-bar2{
+  animation-name: progress-bar1;
+}
+@keyframes progress-bar1{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 70%;
+  }
+}
+.progress-bar3{
+  width: 90%;
+  background-color: #4C9BFB !important;
+  display: flex;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  justify-content: center;
+  padding-top: 1.3%;
+  color: white;
+}
+.progress-bar3{
+  animation-name: progress-bar2;
+}
+@keyframes progress-bar2{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 90%;
+  }
+}
+.progress-bar4{
+  width: 60%;
+  background-color: #ffc41d !important;
+  display: flex;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  justify-content: center;
+  padding-top: 1.3%;
+  color: white;
+}
+.progress-bar4{
+  animation-name: progress-bar3;
+}
+@keyframes progress-bar3{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 60%;
+  }
+}
+.progress-bar2{
+  width: 90%;
+  background-color: #0ad092 !important;
+  display: flex;
+  justify-content: center;
+ 
+  color: white;
+}
+.progress-bar3{
+  width: 60%;
+  background-color: #ff815f !important;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.fe-works{
+  font-family: 'Comfortaa', cursive;
+  color: #00CE8F;
+  padding-left: 0.4%;
+}
+.my-5{
+    margin-top: 2rem!important;
+    margin-bottom: 1rem!important;
+    
+}
+
+.new-btn-started a{
+  text-decoration: none;
+  color: #FFC41D;
+ 
+}
+.btn-set{
+  padding: 0%;
+}
+.section-bg{
+ background-color: #e5eeff;
+}
+#root{
+  background-color: #e5eeff !important;
+ }
+ .my-about{
+   text-align: center;
+   font-family: 'Comfortaa', cursive;
+   color: #00CE8F;
+ }
+ .my-about2 h1{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+.icons-add{
+  text-align: center;
+}
+.choose-us h6{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+.page-icon{
+  text-align: center;
+}
+
+.about-brand h2{
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+.bg-contact{
+  background: url("/src/images/bg10.png");
+  background-color: #969bbf;
+  background-size: cover;
+  background-position: center;
+ 
+}
+.rounded-animatedd{
+  animation: circle 6s linear infinite;
+}
+@keyframes circle{
+  0%{
+    transform:rotate(0deg)
+              translate(10px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+            translate(10px)
+              rotate(-360deg);
+  }
+}
+.contact-area h1{
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  color: white;
+  line-height: 1.4;
+}
+.color-strong{
+  color: #00CE8F;
+}
+.name-txt{
+  
+  margin-top: 4%;
+  font-size: medium;
+  
+}
+.name-txt .form-control-2{
+  border-radius: 40px 40px 40px 40px;
+  background-color: transparent;
+  padding-left: 4% !important;
+ padding: 4%;
+  box-shadow: none;
+  height: fit-content;
+  
+ 
+}
+.form-control{
+  background-color: #e5eeff !important;
+}
+.name-txt .form-control-2:focus{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #00CE8F;
+}
+.form-control-2{
+  background-color: #896eff !important;
+}
+
+.btn-contact{
+   display: grid;
+    padding: 20%;
+ 
+}
+.btn-contact input{
+  color: #ffffff;
+    background: rgba(255, 255, 255, 0);
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    border: 2px solid #00CE8F;
+    border-radius: 50px 50px 50px 50px;
+    padding: 12px 25px 12px 25px;
+    
+}
+
+.btn-contact input:hover{
+  color: #ffffff;
+   background-color: #00CE8F;
+   transition: 1s;
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    border: 2px solid #00CE8F;
+    border-radius: 50px 50px 50px 50px;
+    padding: 12px 25px 12px 25px;
+}
+.contact-info{
+  
+  margin-top: 4%;
+  font-size: medium;
+  
+}
+.contact-info .form-control{
+  border-radius: 50px 50px 50px 50px;
+
+  background-color: transparent;
+ 
+ 
+  box-shadow: none;
+  position: relative;
+ 
+}
+.form-control{
+  background-color: #e5eeff !important;
+}
+.contact-info .form-control:focus{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #00CE8F;
+}
+.contact-info-form{
+  
+  margin-top: 4%;
+  font-size: medium;
+  
+}
+.contact-info-form .form-control{
+  border-radius: 0px 0px 40px 40px;
+  background-color: transparent;
+  padding-left: 4% !important;
+  padding: 10%;
+  box-shadow: none;
+  
+ 
+}
+.form-control{
+  background-color: #e5eeff !important;
+}
+.contact-info-form .form-control:focus{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #00CE8F;
+}
+.form-control-2{
+  background-color: #969bbf !important;
+}
+.service-below{
+  text-align: center;
+
+}
+.service1-below h4{
+  text-align: center;
+  font-weight: bold;
+  color: #00CE8F;
+  margin-top: 3%;
+  line-height: 1.7;
+}
+.set-contactnew{
+  margin-top: 7%;
+  font-family: 'Comfortaa', cursive;
+}
+.bg-contact2{
+  background: url("/src/images/bg1.png");
+  background-color: #e5eeff ;
+}
+.contact-infonew{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.phone-c{
+  margin-left: 9%;
+}
+.bg-below{
+  background: url("/src/images/bg1.png");
+  background-color: #5003ab;
+}
+.animation-about{
+  border-radius: 50% 50% 50% 50%;
+  transition: 0.5s ease-in;
+
+}
+.animation-about:hover{
+ background-color: #505489;
+
+  
+}
+.animation-about:hover:nth-child(1){
+ background: #505489;
+ box-shadow: 0 3px 30px 0 #505489;
+
+   
+ }
+ .animation-about2{
+  border-radius: 50% 50% 50% 50%;
+  transition: 0.5s ease-in;
+
+}
+.animation-about2:hover{
+ background-color: #00CE8F;
+ box-shadow: 0 3px 30px 0 #00CE8F;
+  
+}
+.animation-abou2t:hover:nth-child(1){
+ background: #00CE8F;
+ 
+
+   
+ }
+ .animation-about3{
+  border-radius: 50% 50% 50% 50%;
+  transition: 0.5s ease-in;
+
+}
+.animation-about3:hover{
+ background-color: #ffc107;
+ box-shadow: 0 3px 30px 0 #ffc107;
+  
+}
+.round-animated{
+  animation: cir 6s linear infinite;
+  margin-top: 20%;
+}
+@keyframes cir{
+  0%{
+    transform:rotate(0deg)
+              translate(5px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+            translate(5px)
+              rotate(360deg);
+  }
+}
+.contact-now h2{
+  font-family: 'Comfortaa', cursive;
+  color: white;
+}
+.btn-get-startedd a{
+  border-radius: 50px;
+ border: 1px solid #00CE8F;
+ padding: 7px 22px;
+ text-decoration: none;
+  color:#00CE8F;
+ 
+ 
+}
+.btn-get-startedd a:hover{
+  border-radius: 50px;
+  background-color:#00CE8F;
+  color: white;
+  border: 1px solid #00CE8F;
+  transition: 0.5s;
+ 
+}
+.contact-detail h5 {
+font-size: revert;
+  font-family: 'Comfortaa', cursive;
+  color: white;
+}
+.contact-detail{
+  margin-bottom: 8%;
+  
+}
+.email-se{
+  font-size: revert;
+ 
+  color: white;
+}
+.name-b{
+  color: #00CE8F;
+  font-family: 'Comfortaa', cursive;
+  font-size: x-large;
+}
+.insta-set{
+  transition: 0.6s;
+}
+.insta-set:hover{
+  color: #dd2a7b;
+}
+.l-set{
+  margin-left: 40%;
+  transition: 0.6s;
+  
+}
+.l-set:hover{
+color: #0e76a8;
+  
+}
+.t-set:hover{
+  color: #00acee;
+}
+.s-links{
+  display: inline-flex;
+  font-size: x-large;
+  
+}
+.t-set{
+ margin-left: 40%;
+ transition: 0.6s;
+}
+
+.f-set{
+  margin-left: 40%;
+  transition: 0.6s;
+}
+.f-set:hover{
+  color: #29487d;
+}
+
+.footer-ui{
+  list-style: none;
+  padding: 0%;
+}
+.footer-ui li{
+  margin-bottom: 4.4%;
+  font-family: 'Comfortaa', cursive;
+  transition: 0.4s all;
+  
+  
+}
+p{
+  font-family: 'Klee One', cursive;
+  font-weight: 600;
+}
+.color-all li{
+  color: white;
+}
+.us-links h6{
+  font-family: 'Comfortaa', cursive;
+  color: #00CE8F;
+}
+.footer-ui a{
+  text-decoration: none;
+  color:#212529;
+}
+.color-all{
+  color: white;
+}
+.footer-ui li:hover{
+  margin-left: 2%;
+  color: #ffc107;
+}
+.footer-new li{
+  list-style: none;
+ 
+  margin-bottom: 4.4%;
+  
+  font-family: 'Comfortaa', cursive;
+}
+.footer-new{
+  padding: 0%;
+}
+.run-ic{
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.Adress-bar{
+  font-family: 'Comfortaa', cursive;
+  font-size: smaller;
+}
+.animated-new{
+  animation: round 6s linear infinite;
+ 
+}
+.animated-new{
+  animation: round 6s linear infinite;
+ 
+}
+@keyframes round{
+  0%{
+    transform:rotate(0deg)
+              translate(5px)
+              rotate(0deg);
+  
+  }
+  100%{
+    transform:rotate(360deg)
+            translate(15px)
+              rotate(-360deg);
+  }
+}
+.my-port{
+  font-family: 'Comfortaa', cursive;
+  color: #00CE8F;
+  font-size: 1.7rem;
+  line-height: inherit;
+}
+.hire h3{
+  font-family: 'Comfortaa', cursive;
+  color: #1A4CED;
+  margin-top: 2%;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.hire h6{
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+ 
+}
+@media only screen and (max-width: 768px) {
+  .brand-name{
+    font-size: smaller;
+  }
+ 
+.new-btn-started a {
+   margin-left: 2.7%;
+ margin-top: 5%;
+}
+.footer-ui {
+ margin-top: 3%;
+}
+#icon-add{
+  display: flex;
+}
+#icon-add2{
+  display: flex;
+}
+#icon-add3{
+  display: flex;
+}
+#icon-add4{
+  display: flex;
+}
+}
+@media only screen and (min-width: 320px){
+ 
+  .new-btn-started a {
+    margin-left: 7%;
+   
+ }
+ .services-listed li{
+  
+ }
+ 
+
+
+
+
+}
+@media only screen and (min-width: 425px){
+ 
+  .new-btn-started a {
+    margin-left: 7%;
+   
+ }
+ 
+
+}
+@media only screen and (max-width:1440px){
+  
+
+.btn-contact {
+    display: grid;
+    padding: 9%;
+}
+
+
+}
+@media only screen and (max-width:375px){
+  
+
+  }
+  @media only screen and (max-width:320px){
+  
+ 
+    
+    }
+  
+
+@media only screen and (max-width:1024px){
+  
+
+  .btn-contact {
+      display: grid;
+      padding: 13%;
+  }
+  
+
+
+  }
+
+
+
+
+
